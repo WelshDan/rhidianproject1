@@ -121,6 +121,7 @@ h2, p {
     position: absolute;
     left: 10%;
     padding: 30px;
+    text-align: left;
 }
 
 .contact-form > h3 {
