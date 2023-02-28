@@ -1,3 +1,5 @@
+/* general information */
+
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 
 * {
@@ -5,11 +7,24 @@
     padding: 0;
     border: none;
 }
-/* Header - fonts and logo */
+/* header - fonts and logo */
+#rhidian {
+    float: left;
+    margin-left: 30%;
+}
 
+h1 {
+    font-size: 60px;
+}
 
+#logo {
+    width: 100px;
+    height: auto;
+    margin-left: 8%;
+    margin-top: 1%;
+}
 
-/* Body formatting and styles */
+/* body formatting and styles */
 
 
 body {
@@ -18,13 +33,13 @@ body {
     color: black;
 }
 
-/* Footer formats and styles */
+/* footer formats and styles */
 
 
-/* Picture formats and styles*/
+/* picture formats and styles*/
 
 
-/* Form formats and styles*/
+/* form formats and styles*/
 
 
-/* Media changes for different window sizes */
+/* media changes for different window sizes */
