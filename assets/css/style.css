@@ -9,8 +9,9 @@
 }
 /* header - fonts and logo */
 #rhidian {
+    color: purple;
     float: left;
-    margin-left: 30%;
+    margin-left: 30px;
 }
 
 h1 {
@@ -22,6 +23,19 @@ h1 {
     height: auto;
     margin-left: 8%;
     margin-top: 1%;
+}
+
+/* navigation links in header */
+
+#menu {
+    font-size: 140%;
+    letter-spacing: 3px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 10px;
 }
 
 /* body formatting and styles */
