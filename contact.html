@@ -1,21 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of pictures by photographer, Rhidian Nordlöf Kendrick">
+    <meta name="keywords" content="photography, photographs, gallery, Stockholm, Sweden">
 
-
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
 <section class="contact-form">
     <form method="POST" action="#" class="contact-form">
         <h3>Contact me!</h3>
-        <label for="name">Name</label>
+        <label for="name">Name:</label>
         <input id="name" class="text-input" name="name" type="text" required>
-        
-        <label for="email">Email Address</label>
+        <br>
+        <label for="email">Email:</label>
         <input type="email" class="text-input" id="email" name="email_address" required>
-        
+        <br><br>
+        <label for="radio">Subject:</label>
+        <br>
         <label for="hire">Hire</label>
         <input type="radio" id="hire" name="running_preference" value="hire" required>
         <label for="buy">Buy</label>
         <input type="radio" id="buy" name="running_preference" value="buy" required>
         <label for="info">Information</label>
-        <input type="radio" id="info" name="running_preference" value="info" required>
-        
+         <input type="radio" id="info" name="running_preference" value="info" required>
+         <br>
+        <br>
+        <label for="freeform">Message:</label>
+        <textarea id="freeform" name="freeform" rows="6" cols="50">
+        </textarea><br><br>
         <input class="join-button" type="submit" value="Send">
     </form>
 </section>
