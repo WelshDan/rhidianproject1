@@ -14,22 +14,18 @@
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 90px;
 }
 
 #logo {
-    width: 90px;
+    width: 50px;
     height: auto;
     margin-left: 8%;
-    margin-top: 1%;
 }
 #rhidian, #logo, #links {
     display: inline-block;
-}
-
-#rhidian, #logo {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 5px;
 }
 
 /* navigation links in header */
@@ -72,11 +68,17 @@ body {
     color: black;
 }
 
-#title-pic {
-    height: 400px;
-    width: 600px;
-    margin-top: 5%;
-    margin-left: 1%;
+
+#title-image {
+    float: left;
+    margin-left: 10%;
+    max-height: 400px;
+    max-width: 600px;
+}
+
+#about-me {
+    float: right;
+    margin-right: 10%;
 }
 
 h2, p {
@@ -86,14 +88,10 @@ h2, p {
     width: 300px;
 }
 
-#about-me {
-    float: right;
-}
 
-section {
+#title-image, #about-me {
     display: inline-block;
-    padding: 5px;
-    
+    padding-top: 10px;
 }
 
 /* footer formats and styles */
