@@ -36,12 +36,9 @@ h1 {
     margin-right: 10px;
     color: grey;
 }
-#menu {
+#menu, .btn {
     font-size: 140%;
     letter-spacing: 3px;
-}
-
-#menu, #logo {
     line-height: 100px;
 }
 
@@ -49,7 +46,6 @@ h1 {
     float: right;
     list-style-type: none;
     margin-right: 10px;
-    height: 60px;
 }
 
 #menu a {
@@ -64,12 +60,14 @@ h1 {
 
 #back-button {
     text-decoration: none;
-    padding: 8px 16px;
     position: left;
+    margin-left: 10px;
+    font-family: Didact Gothic, sans-serif;
+    letter-spacing: 3px;
   }
   
 #back-button:hover {
-    background-color: #ddd;
+    border-bottom: 2px solid black;
     color: black;
   }
 
