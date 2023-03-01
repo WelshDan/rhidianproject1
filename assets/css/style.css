@@ -126,6 +126,10 @@ body {
 
 /* form formats and styles*/
 
+#contact, #about-me {
+    display: inline-block;
+}
+
 .contact-form {
     color: black;
     background-color: rgba(60, 60, 60, 0.6);
