@@ -113,6 +113,11 @@ h2, p {
 
 /* picture formats and styles*/
 
+#subjects {
+    height: 400px;
+    width: 300px;
+    object-fit: scale-down;
+}
 
 /* form formats and styles*/
 
