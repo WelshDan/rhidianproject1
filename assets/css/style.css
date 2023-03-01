@@ -60,9 +60,11 @@ h1 {
 
 .btn {
     letter-spacing: 3px;
-    font-size: 120%;text-decoration: none;
+    font-size: 120%;
+    text-decoration: none;
     float: left;
     margin-left: 10px;
+    margin-bottom: 30px;
     color: grey;
     background-color: white;
 }
