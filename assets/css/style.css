@@ -71,8 +71,8 @@ body {
 
 
 #title-image {
-    float: left;
-    margin-left: 33%;
+    padding-left: 33%;
+    padding-top: 20px;
     height: 400px;
     width: 600px;
     overflow: hidden;
@@ -81,21 +81,23 @@ body {
 #about-me {
     float: right;
     margin-right: 15%;
+    padding-top: 50px;
 }
 
-h2, p {
+#about-me-header, #about-me-text {
     padding: 10px;
     text-align: center;
     width: 300px;
 }
 
-#title-image, #about-me {
-    display: inline-block;
-    padding-top: 50px;
-}
-
 /* footer formats and styles */
 
+.footer-text {
+    font-size: 60%;
+    padding-left: 20px;
+    padding-top: 50px;
+    margin: auto;
+}
 
 /* picture formats and styles*/
 
@@ -111,6 +113,8 @@ h2, p {
 
 #subjects > div{
     margin: 10px;
+    position: relative;
+    text-align: center;
 }
 
 #subjects > div > img{
