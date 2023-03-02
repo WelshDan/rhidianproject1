@@ -83,7 +83,6 @@ body {
 }
 
 #title-pic {
-    width: 80%;
     text-align: center;
 }
 
@@ -116,6 +115,7 @@ body {
 #subjects > div{
     margin: 10px;
     text-align: center;
+    font-size: 1.4rem;
 }
 
 #subjects > div > img{
