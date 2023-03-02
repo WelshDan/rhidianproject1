@@ -6,28 +6,33 @@
     margin: 0;
     padding: 0;
     border: none;
-    background-color: #F0EAD6;
 }
 /* header - fonts and logo */
 #rhidian {
     color: red;
-    padding-left: 50px;
+    padding-left: 30px;
 }
 
 h1 {
-    font-size: 90px;
+    font-size: 4rem;
 }
 
 #logo {
     height: 60px;
     width: 60px;
-    padding-left: 30px;
 }
 
 #rhidian, #logo, #links {
     display: inline-block;
     text-align: center;
-    padding-top: 5px;
+}
+
+header {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .active {
@@ -36,20 +41,18 @@ h1 {
 /* navigation links in header */
 
 #links {
-    float: right;
-    margin-right: 10px;
     color: black;
 }
 #menu {
-    font-size: 140%;
+    font-size: 1.4rem;
     letter-spacing: 3px;
     line-height: 100px;
 }
 
 #menu li {
-    float: right;
     list-style-type: none;
     margin-right: 10px;
+    float: right;
 }
 
 #menu a {
@@ -70,16 +73,19 @@ body {
     font-family: Didact Gothic, sans-serif;
     font-weight: 400;
     color: black;
+    background-color: #F0EAD6;
 }
 
 
 #title-image {
-    padding-left: 33%;
-    padding-top: 20px;
-    height: 400px;
-    width: 600px;
-    overflow: hidden;
+    width: 100%;
+    text-align: center;
 }
+
+#title-pic {
+    width: 80%;
+}
+
 
 
 #about-me-header, #about-me-text {
@@ -91,7 +97,7 @@ body {
 /* footer formats and styles */
 
 .footer-text {
-    font-size: 60%;
+    font-size: 0.6rem;
     padding: 20px;
     position: absolute;
     bottom: 0;
@@ -108,7 +114,6 @@ body {
 
 #subjects > div{
     margin: 10px;
-    position: relative;
     text-align: center;
 }
 
@@ -116,6 +121,7 @@ body {
     height: 400px;
     width: 300px;
     object-fit: cover;
+    object-position: 40%;
 }
 
 
@@ -137,11 +143,9 @@ body {
 }
 
 .contact-form > h3 {
-    text-align: center;
-    font-size: 120;
+    text-align: left;
     color: black;
     margin-bottom: 20px;
-    background-color: grey);
 }
 
 .join-button {
@@ -160,6 +164,11 @@ body {
     color: #f16c6b;
 }
 
+label {
+    width: 200px;
+}
+
+
 
 /* media changes for different window sizes */
 
@@ -168,10 +177,6 @@ body {
 /* for medium screen sizes*/
 
 @media screen and (max-width:950px) {
-
-    #title-image {
-    padding-left: 25%;
-}
 
 #subjects > div > img{
     height: 300px;
@@ -183,4 +188,10 @@ body {
     display: inline-block;
     margin-left: 5%;
 }
+
+.footer-text {
+    position: unset;
+}
+
+
 }
