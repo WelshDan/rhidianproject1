@@ -89,7 +89,7 @@ body {
 
 
 
-#about-me-header, #about-me-text {
+#about-me-header, .about-me-text {
     padding: 10px;
     text-align: center;
     width: 300px;
@@ -149,6 +149,12 @@ body {
     margin-bottom: 20px;
 }
 
+.text-input {
+    display: inline-flex;
+  flex-direction: column;
+  margin: 0;
+}
+
 .join-button {
     margin-top: 20px;
     border-radius: 2px;
@@ -156,7 +162,7 @@ body {
     text-align: center;
     font-size: 100%;
     background-color: #f16c6b;
-    color: #black;
+    color: black;
     display: block;
 }
 
