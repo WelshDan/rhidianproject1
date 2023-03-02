@@ -19,8 +19,8 @@ h1 {
 }
 
 #logo {
-    height: 75px;
-    width: 75px;
+    height: 60px;
+    width: 60px;
     padding-left: 30px;
 }
 
@@ -30,6 +30,9 @@ h1 {
     padding-top: 5px;
 }
 
+.active {
+    border-bottom: 1px solid black;
+}
 /* navigation links in header */
 
 #links {
@@ -89,17 +92,14 @@ body {
 
 .footer-text {
     font-size: 60%;
-    padding-left: 20px;
-    padding-top: 50px;
-    margin: auto;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
 }
 
 /* picture formats and styles*/
 
 #subjects {
-    /* height: 400px;
-    width: 300px;
-    object-fit: scale-down; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -128,19 +128,21 @@ body {
 
 .contact-form {
     color: black;
-    background-color: grey;
-    max-width: 500px;
+    background-color: rgba(117, 117, 117, 0.6);
+    height: 350px;
+    width: 400px;
     padding: 30px;
     text-align: left;
     margin-left: 10%;
 }
 
 .contact-form > h3 {
+    text-align: center;
+    font-size: 120;
     color: black;
     margin-bottom: 20px;
     background-color: grey);
 }
-
 
 .join-button {
     margin-top: 20px;
@@ -149,7 +151,7 @@ body {
     text-align: center;
     font-size: 100%;
     background-color: #f16c6b;
-    color: #fafafa;
+    color: #black;
     display: block;
 }
 
