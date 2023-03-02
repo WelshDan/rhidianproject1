@@ -84,6 +84,7 @@ body {
 
 #title-pic {
     width: 80%;
+    text-align: center;
 }
 
 
@@ -99,7 +100,7 @@ body {
 .footer-text {
     font-size: 0.6rem;
     padding: 20px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
 }
 
@@ -166,6 +167,7 @@ body {
 
 label {
     width: 200px;
+    vertical-align: middle;
 }
 
 
