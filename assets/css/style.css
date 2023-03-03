@@ -83,6 +83,7 @@ body {
 }
 
 #title-pic {
+    width: 50%;
     text-align: center;
 }
 
@@ -105,11 +106,16 @@ body {
 
 /* picture formats and styles*/
 
+#connections {
+    margin-top: 2%;
+}
+
 #subjects {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 2%;
 }
 
 #subjects > div{
@@ -153,6 +159,7 @@ body {
     display: inline-flex;
   flex-direction: column;
   margin: 0;
+  width: 80%;
 }
 
 .join-button {
@@ -172,7 +179,7 @@ body {
 }
 
 label {
-    width: 200px;
+    width: 60px;
     vertical-align: middle;
 }
 
@@ -193,8 +200,9 @@ label {
 }
 
 #contact, #about-me {
+    vertical-align: middle;
     display: inline-block;
-    margin-left: 5%;
+    position: relative;
 }
 
 .footer-text {
