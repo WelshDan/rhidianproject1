@@ -9,7 +9,7 @@
 }
 /* header - fonts and logo */
 #rhidian {
-    color: red;
+    color: purple;
     padding-left: 30px;
 }
 
@@ -18,8 +18,8 @@ h1 {
 }
 
 #logo {
-    height: 60px;
-    width: 60px;
+    height: 10%;
+    width: 10%;
 }
 
 #rhidian, #logo, #links {
@@ -73,7 +73,7 @@ body {
     font-family: Didact Gothic, sans-serif;
     font-weight: 400;
     color: black;
-    background-color: #F0EAD6;
+    background-color: #fffee8;
 }
 
 
@@ -203,11 +203,17 @@ label {
     vertical-align: middle;
     display: inline-block;
     position: relative;
+    float: none;
+    margin: 0;
+}
+#contact {
+    margin: 0;
+    text-align: center;
+    overflow: hidden;
+    justify-content: center;
+    padding: 10px;
 }
 
-.footer-text {
-    position: unset;
-}
 
 
 }
